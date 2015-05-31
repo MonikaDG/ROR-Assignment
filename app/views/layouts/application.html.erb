@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ODC</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+ 
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<center>
+	
+<%= image_tag("header.png", :alt => "header pic") %>
+<br/>
+<%= yield %>
+
+</body>
+</html>

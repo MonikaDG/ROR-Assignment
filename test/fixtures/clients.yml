@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  organisation: MyString
+  designation: MyString
+  visit_start_date: 2015-05-27 15:48:00
+  visit_end_date: 2015-05-27 15:48:00
+  person_to_meet: MyString
+  location: MyString
+  address: MyText
+
+two:
+  name: MyString
+  organisation: MyString
+  designation: MyString
+  visit_start_date: 2015-05-27 15:48:00
+  visit_end_date: 2015-05-27 15:48:00
+  person_to_meet: MyString
+  location: MyString
+  address: MyText

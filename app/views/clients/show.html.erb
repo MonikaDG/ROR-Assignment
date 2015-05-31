@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @client.name %>
+</p>
+
+<p>
+  <strong>Organisation:</strong>
+  <%= @client.organisation %>
+</p>
+
+<p>
+  <strong>Designation:</strong>
+  <%= @client.designation %>
+</p>
+
+<p>
+  <strong>Visit start date:</strong>
+  <%= @client.visit_start_date %>
+</p>
+
+<p>
+  <strong>Visit end date:</strong>
+  <%= @client.visit_end_date %>
+</p>
+
+<p>
+  <strong>Person to meet:</strong>
+  <%= @client.person_to_meet %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @client.location %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @client.address %>
+</p>
+
+<%= link_to 'Edit', edit_client_path(@client) %> |
+<%= link_to 'Back', clients_path %>
